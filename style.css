@@ -1,0 +1,83 @@
+body{
+    background: #000000;
+}
+#wrap{
+    width: 920;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:any-link {
+    color: #ffffff;
+}
+#content article section h2{
+    color: #ffffff;
+}
+#content article section p{
+    color: #ffffff;
+}
+#content{
+    float: right;
+    width: 900px;
+}
+#sidebar{
+    float: left;
+    width: 160px;
+}
+.h1{
+    background: rgb(214, 0, 0);
+    width: 220px;
+    margin: auto;
+}
+header a h1{
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+}
+aside ul li{
+    list-style: none;
+    margin: 20px;
+}
+aside ul li a{
+    text-decoration: none;
+}
+article ul li{
+    list-style: none;
+    display: inline-block;
+}
+article section ul li{
+    margin: 10px;
+}
+article section ul li a{
+    text-decoration: none;
+}
+article section ul li a:hover{
+    text-decoration: underline;
+}
+article section p{
+    width: 720px;
+}
+footer{
+    clear: both;
+    padding-top: 100px;
+}
+footer p{
+    color: #ffffff;
+}
+.button{
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #000000; 
+    color: #ffffff;
+}
+.button:hover{
+    background-color: rgb(214, 0, 0);
+    color: #ffffff;
+}
